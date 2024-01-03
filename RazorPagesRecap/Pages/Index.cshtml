@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h1>Links</h1>
+<a asp-page="/Privacy">Link to Privacy page</a>
+<a asp-page="/Colors/Blue">Link to Blue page</a>
+<a asp-page="/Colors/Green">Link to Green page</a>
+<a asp-page="/Colors/Red">Link to Red page</a>
+<a asp-page="/Dog" asp-route-dog="schnauzer">Link to Schnauzer page</a>
+<a asp-page="/Dog" asp-route-dog="chihuahua">Link to Chihuahua page</a>
+<a asp-page="/Dog" asp-route-dog="poodle">Link to Poodle page</a>
+<a asp-page="/SignUp">Link to Sign up</a>
